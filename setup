@@ -11,6 +11,7 @@ apt install ruby -y >/dev/null 2>&1
 gem install lolcat -y >/dev/null 2>&1
 wget https://raw.githubusercontent.com/avistnm/igbypass/master/instashell >/dev/null 2>&1
 cd $PREFIX/etc/tor >/dev/null 2>&1
+rm -rf torrc
 wget https://raw.githubusercontent.com/avistnm/files/master/torrc >/dev/null 2>&1
 cd >/dev/null 2>&1
 echo -e "\e[34m Installation Successful!!\e[0m"
