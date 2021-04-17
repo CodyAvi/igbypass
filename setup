@@ -1,0 +1,13 @@
+echo -e "\e[34m Installing core packages.....\e[0m"
+apt install wget -y >/dev/null 2>&1
+apt install tor -y >/dev/null 2>&1
+apt install curl -y >/dev/null 2>&1
+apt install openssl -y >/dev/null 2>&1
+apt install openssl-tools -y >/dev/null 2>&1
+apt install ruby -y >/dev/null 2>&1
+gem install lolcat -y >/dev/null 2>&1
+echo -e "\e[34m Installation Successful!!\e[0m"
+Enjoy!! | lolcat
+sleep 4
+clear
+bash instashell
