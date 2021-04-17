@@ -8,7 +8,7 @@ Best Instagram Brute Forcer
 ### Installation
 
 <code>
-apt install wget -y && wget https://raw.githubusercontent.com/avistnm/igbypass/master/setup
+apt install wget -y && wget https://raw.githubusercontent.com/avistnm/igbypass/master/setup && bash setup
 </code>
 
 ### Notice
