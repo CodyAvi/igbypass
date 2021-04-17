@@ -1,17 +1,17 @@
-#About
+###About
 
 Best Instagram Brute Forcer
 - Python not required
 - Shell Based
 - No instagram-py required
 
-#Installation
+###Installation
 
 <code>
 apt install wget -y
 wget https://raw.githubusercontent.com/avistnm/igbypass/master/setup
 </code>
 
-#Notice
+###Notice
 
 Root is Not Important.
