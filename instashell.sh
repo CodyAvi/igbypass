@@ -14,9 +14,9 @@ printf "\e[1;92m _  | |                _                | |           | || |    
 printf "\e[1;92m( \ | | ____    ___  _| |_  _____   ___ | |__   _____ | || |          \e[0m\n"
 printf "\e[1;92m ) )| ||  _ \  /___)(_   _)(____ | /___)|  _ \ | ___ || || |          \e[0m\n"
 printf "\e[1;77m(_/ | || | | ||___ |  | |_ / ___ ||___ || | | || ____|| || |  _____   \e[0m\n"
-printf "\e[1;77m    |_||_| |_|(___/    \__)\_____|(___/ |_| |_||_____) \_)\_)(_____)  \e[0m\n"
+printf "\e[1;77m    |_||_| |_|(___/    \__)\_____|(___/ |_| |_||_____) \_)\_)(_____)  \e[0m\n"   .
 printf "\n"
-printf "\e[1;77m\e[45m                     Instagram Brute Forcer. Author: @thelinuxchoice\e[0m\n"
+printf "\e[1;77m\e[45m                 Instagram Brute Forcer. Author: @avistnm.          \e[0m\n"
 printf "\n"
 }
 
