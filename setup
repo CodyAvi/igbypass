@@ -1,4 +1,5 @@
 #!$PREFIX/bin/bash
+clear
 echo -e "\e[34m Installing core packages.....\e[0m"
 apt install update -y >/dev/null 2>&1
 apt install upgrade -y >/dev/null 2>&1
