@@ -40,8 +40,7 @@ fi
 
 function changeip() {
 
-killall tor
-tor
+killall -HUP tor
 
 }
 
