@@ -98,7 +98,6 @@ if [[ "$check" == "Please wait" ]]; then
 printf "\e[1;31m [*] Changing IP Address...\n\e[0m"
 changeip 
 fi
-changeip
 done
 }
 
