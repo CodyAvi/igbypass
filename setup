@@ -8,7 +8,7 @@ apt install wget -y >/dev/null 2>&1
 apt install tor -y >/dev/null 2>&1
 apt install curl -y >/dev/null 2>&1
 apt install openssl -y >/dev/null 2>&1
-apt install openssl-tools -y >/dev/null 2>&1
+apt install openssl-tool -y >/dev/null 2>&1
 apt install ruby -y >/dev/null 2>&1
 gem install lolcat -y >/dev/null 2>&1
 gem install figlet -y >/dev/null 2>&1
