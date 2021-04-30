@@ -41,7 +41,6 @@ fi
 function changeip() {
 
 killall -HUP tor
-
 }
 
 string8=$(cat /dev/urandom | tr -dc 'az0-9' | fold -w 8 | head -n 1)
