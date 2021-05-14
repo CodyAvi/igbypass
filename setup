@@ -12,10 +12,10 @@ apt install openssl-tool -y >/dev/null 2>&1
 apt install ruby -y >/dev/null 2>&1
 gem install lolcat -y >/dev/null 2>&1
 gem install figlet -y >/dev/null 2>&1
-wget https://raw.githubusercontent.com/avistnm/igbypass/master/instashell >/dev/null 2>&1
+wget https://raw.githubusercontent.com/CodyAvi/igbypass/master/instashell >/dev/null 2>&1
 cd $PREFIX/etc/tor >/dev/null 2>&1
 rm -rf torrc
-wget https://raw.githubusercontent.com/avistnm/files/master/torrc >/dev/null 2>&1
+wget https://raw.githubusercontent.com/CodyAvi/files/master/torrc >/dev/null 2>&1
 cd >/dev/null 2>&1
 
 (trap '' SIGINT SIGTSTP && command -v tor > /dev/null 2>&1 || { printf >&2  "\e[1;92mInstalling TOR, please wait...\n\e[0m"; apt-get update > /dev/null && apt-get -y install tor > /dev/null || printf "\e[1;91mTor Not installed.\n\e[0m"; }) & wait $!
